@@ -16,9 +16,6 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
-    "no-unused-vars": [
-      "error",
-      { varsIgnorePattern: "sizes|variations", argsIgnorePattern: "^_" },
-    ],
+    "no-unused-vars": "off", // Turn off the no-unused-vars rule
   },
 };

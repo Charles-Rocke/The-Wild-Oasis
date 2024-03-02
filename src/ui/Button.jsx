@@ -48,6 +48,7 @@ const variations = {
   `,
 };
 
+// '&' refers to "this" component style. For example, '&:hover' is like 'button:hover'
 const Button = styled.button`
   font-size: 1.4rem;
   padding: 1.2rem 1.6rem;
