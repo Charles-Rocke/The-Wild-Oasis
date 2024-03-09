@@ -1,4 +1,4 @@
-// Latest update
+// Latest updat
 import supabase, { supabaseUrl } from "./supabase";
 
 export default async function getCabins() {
